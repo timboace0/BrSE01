@@ -1,0 +1,9 @@
+.submit-btn{
+    margin: 300px 0 0 600px;
+    transform: scale(3);
+    border-top: 2px solid red;
+    border-right: 4px dotted rgb(171, 13, 171) ;
+    border-bottom: 6px double green;
+    border-left: 6px groove purple;
+    
+}

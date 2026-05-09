@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;
+    gap: 10px;               
+}
+div{
+    width: 150px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.btn1:hover{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    transition-duration: 1s;
+}
+.btn2{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.btn2:hover{
+    background-color: rgb(70, 146, 239);
+    color: white;
+}
+.btn3{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 1s;
+}
+.btn3:hover{
+    transform: scale(2);
+}
+.btn4{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 1s;
+}
+.btn4:hover{
+    transform: scale(0.5);
+}
+.btn4{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 0.5s;
+}
+.btn5{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 0.5s;
+}
+.btn5:hover{
+    transform: rotate(-45deg);
+}
+.btn6{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transition: border-radius 0.5s;
+}
+.btn6:hover{
+    border-radius: 50%;
+}
+.btn7{
+    background-color: rgb(101, 82, 84);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    border: 8px solid transparent;
+    transition: border-color 0.5s;
+}
+.btn7:hover{
+    border-color: rgb(73, 173, 255);
+}

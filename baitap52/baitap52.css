@@ -1,0 +1,12 @@
+.item{
+    width: 500px;
+    height: 30px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: grey;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item:hover{
+    background-color: black;
+}

@@ -1,0 +1,12 @@
+.click-me-btn{
+    margin: 300px 0 0 600px;
+    transform: scale(3);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 80px;
+}
+.click-me-btn:active{
+    background-color: red;
+    color: white;
+}

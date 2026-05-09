@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: black;
+}
+.item:hover{
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+    transition-duration: 2s;
+}
