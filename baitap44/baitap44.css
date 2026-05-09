@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    color: #2d70ed;
+}
+.main-section{
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    border: 1px solid black;
+    max-width: 600px;
+}
+.paragraph-1{
+    margin-bottom: 10px;
+}

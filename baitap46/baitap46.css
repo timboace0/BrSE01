@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-content{
+    margin-top: 10%;
+    background-color: rgb(243, 233, 194);
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.read-more-btn{
+    padding: 10px;
+}
+.read-more-btn:hover{
+    color: white;
+    background-color: green;
+}
+h2{
+    color: blue;
+}

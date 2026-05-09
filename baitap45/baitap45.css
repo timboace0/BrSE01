@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+}
+.orange-text{
+    color: orange;
+}
+.paragraph-3{
+    background-color: #f0f3d9;
+    padding: 10px;
+    border-left: 5px solid orange;
+}
