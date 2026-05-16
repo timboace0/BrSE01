@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./baitap85.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./resources/logo.png" alt="logo-img" />
+      <nav class="nav-header">
+        <div class="currency-bar">
+          <span class="currency">USD</span>
+          <img
+            src="https://sahaimmigration.com/upload/products_category/my-TTHVO.png"
+            alt=""
+          />
+          <i class="fa-regular fa-bell"></i>
+          <div class="vertical-line" style="margin-right: 24px"></div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8A0V6DCi57-5yZNolgfUuj8S9o_y1pkJgEJaONGz7LboDWl5oXs1C3OGMRYtsUh_APIAgNbmloLovTBEGbwITht9WmSD_1LrTB8F0Nm2&s=10"
+            alt="avatar"
+          />
+
+          <span class="profile-name">Delowar</span>
+
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="flex-column">
+        <div class="flex-item">
+          <div class="nav-show">
+            <span>Home > Hotel list > Hotel details ></span>
+            <span class="cf-and-pay">Confirm and pay</span>
+          </div>
+        </div>
+        <div class="flex-item">
+          <h1 class="cf-your-book">Confirm your Book</h1>
+        </div>
+        <div class="flex-item">
+          <form action="" class="form-item">
+            <h2 class="your-tour-text">Your tour</h2>
+            <label for="date">Date</label> <br />
+            <input
+              class="form-input"
+              type="date"
+              name="date"
+              id="date"
+              placeholder="June 27 - 30, 2020"
+            />
+            <br />
+            <label for="traveller">Traveller</label> <br />
+            <input
+              class="form-input"
+              type=""
+              name="traveller"
+              id="traveller"
+              min="1"
+              placeholder="1 Passenger"
+            />
+            <br />
+          </form>
+        </div>
+        <div class="flex-item">
+          <div class="payment">
+            <img src="./resources/mayment card.png" alt="pay-by" />
+            <img src="./resources/card 1.png" alt="master-card" />
+            <img src="./resources/card 2.png" alt="visa" />
+            <form action="" class="card-input-form">
+              <div class="form-card-item">
+                <label for="card-number">Card Number</label> <br />
+                <input
+                  type="number"
+                  maxlength="16"
+                  name="card-number"
+                  id="card-number"
+                />
+              </div>
+              <div class="form-card-item">
+                <label for="expired-date">Expiry Date</label> <br />
+                <input type="month" id="expired-date" name="expired-date" />
+              </div>
+              <div class="form-card-item">
+                <label for="cvv">CVC/CVV</label> <br />
+                <input type="password" id="cvv" name="cvv" maxlength="4" />
+              </div>
+              <div class="form-card-item">
+                <input
+                  type="checkbox"
+                  checked
+                  value="Save card"
+                  id="save-card"
+                />
+                <label for="save-card">Save Card</label>
+              </div>
+              <input
+                type="submit"
+                value="Confirm and reserve"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="flex-item">
+        <div class="summary-booked">
+          <h4>Switzerland Hotels and Places to Stay</h4>
+          <div class="review-rate">
+            <i class="fa-solid fa-star" style="color: gold"></i>
+            <span class="star-count">4.8</span>
+            <span class="review-count">(122 reviews)</span>
+          </div>
+          <img
+            src="./resources/daniel-corneschi-N6HTCyN50p0-unsplash 1.png"
+            alt=""
+          />
+          <p class="room-type">1 bedroom + 1 private room</p>
+          <hr />
+          <div class="check-in-out">
+            <div>
+              <p class="date-check-in">Check in</p>
+              <p>June 27, 2020</p>
+            </div>
+            <div>
+              <p class="date-check-out">Check out</p>
+              <p>June 30, 2020</p>
+            </div>
+          </div>
+          <div>
+            <p class="nb-of-guest">Guest</p>
+            <p>2 guests</p>
+          </div>
+          <h2 class="booked-detail">Booked details</h2>
+          <div class="detail-price">
+            <div>
+              <span>$119 + 5nights</span>
+              <span class="price">$833</span>
+            </div>
+            <div>
+              <span>Ocupancy text and fee</span>
+              <span class="price">-$125</span>
+            </div>
+            <div>
+              <span>Service free</span>
+              <span class="price">$103</span>
+            </div>
+            <div class="total-pay">
+              <span>Total</span>
+              <span class="price">$833</span>
+            </div>
+            <a href="" class="report">Report this property</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="get-offers">
+        <img src="./resources/bg.png" alt="" />
+        <h1 class="get-pro-offer-title">Get our pro offers</h1>
+        <p class="get-pro-offer-subtitle">
+          Create a visual identity for you company, and an overall brand
+        </p>
+        <form action="" class="email-offer-form">
+          <input
+            type="email"
+            placeholder="Type your email here"
+            class="email-input"
+          />
+          <input type="submit" class="subscribe-btn" value="Subscribe" />
+        </form>
+      </div>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./resources/logo.png" alt="" />
+          <p class="reference-footer">
+            This is the team that specializes in making sure in the find it a
+            your interior looks cool
+          </p>
+          <div class="sun-night-change">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-regular fa-moon"></i>
+          </div>
+        </div>
+
+        <div class="service-footer">
+          <h2>Services</h2>
+          <a href="">Travel Booking</a> <br />
+          <a href="">Flight Booking</a> <br />
+          <a href="">Car Booking</a><br />
+          <a href="">Fivestar Hotel</a><br />
+          <a href="">Traveling</a><br />
+        </div>
+
+        <div class="support-footer">
+          <h2>Support</h2>
+          <a href="">Account</a><br />
+          <a href="">Legal</a><br />
+          <a href="">Contact</a><br />
+          <a href="">Terms & Condition</a><br />
+          <a href="">Privacy Policy</a><br />
+        </div>
+
+        <div class="business-footer">
+          <h2>Business</h2>
+          <a href="">Success</a><br />
+          <a href="">About Locato</a><br />
+          <a href="">Blog</a><br />
+          <a href="">Information</a><br />
+          <a href="">Travel Guide</a><br />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

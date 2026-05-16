@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.flex-item{
+    width: 50%;
+    color: white;
+    background-color: #232223;
+    padding: 24px 0;
+    padding-left: 24px;
+    text-align: start;
+}
+
+@media screen and (max-width: 768px){
+ .flex-item{
+    width: 100%;
+ }
+}

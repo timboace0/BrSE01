@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header img{
+    width: 140px;
+    height: 60px;
+    padding: 12px 0;
+    padding-left: 32px;
+}
+.nav-header {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.currency {
+    color: grey;
+    padding: 0;
+}
+.currency-bar img {
+    width:35px;
+    height:25px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.currency-bar{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    margin-right: 48px;
+}
+.fa-bell {
+    padding: 24px 0;
+    padding-right: 48px;
+    
+}
+.profile-name{
+    padding: 0 12px;
+}
+.profile img {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.nav-show{
+    padding: 38px 76px
+}
+.fa-solid {
+}
+.fa-caret-down {
+}
+.main-container {
+    background-color: #fafbfa;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.your-tour-text{
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+.flex-item {
+}
+.cf-and-pay {
+    color: #cbcdd7;
+}
+.cf-your-book {
+    padding-left: 90px;
+}
+.form-item {
+    padding-left: 90px;
+}
+.form-input{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+}
+.payment {
+    padding-left: 90px;
+    margin-top: 36px ;
+    width: 800px;
+}
+.payment img:first-child{
+    width: 50%;
+    padding-bottom: 24px;
+    margin-left: 24px;
+}
+
+.payment img:nth-last-of-type(2){
+    padding-right: 24px;
+}
+.card-input-form {
+}
+.submit-btn {
+    color: white;
+    background-color: #3a71ff;
+    border-radius: 24px;
+    padding: 12px;
+    border: none;
+    margin-bottom: 12px;
+}
+.summary-booked {
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    padding: 32px;
+    margin-right: 128px;
+    margin-top: 84px;
+    width: 350px;
+}
+.summary-booked h3, h4{
+    color: black;
+}
+.review-rate{
+    padding: 16px 0;
+}
+.summary-booked img{
+    border-radius: 12px;
+    width: 200px;
+}
+.star-count{
+    color: black;
+}
+.room-type{
+    padding: 12px 0;
+}
+.fa-star {
+}
+.star-count {
+}
+.date-check-in {
+    color: #bec0cf;
+    padding-bottom: 8px;
+}
+.nb-of-guest {
+    color: #bec0cf;
+    margin-top: 10px;
+    padding-bottom: 8px;
+}
+.date-check-out {
+    color: #bec0cf;
+    padding-bottom: 8px;
+}
+.check-in-out{
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+}
+.booked-detail{
+    padding: 12px 0;
+    color: black;
+}
+.detail-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.price{
+    color: black;
+    font-weight: bold;
+    float: right;
+}
+.total-pay {
+    background-color: #f5f5f7;
+    padding: 12px 0;
+    border-radius: 12px;
+
+}
+.report{
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+}
+.card-input-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 20px;
+}
+.form-card-item:first-child{
+    width: calc(100% - 20px);
+    margin-top: 24px;
+}
+.form-card-item:nth-of-type(4){
+    width: calc(100%);
+}
+#card-number{
+    width: 400px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+#expired-date{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+#cvv{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.footer {
+}
+.get-offers {
+    padding-left: 90px;
+    position: relative;
+}
+.get-pro-offer-title {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: white;
+}
+.get-pro-offer-subtitle{
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    color: white;
+    font-size: 12px;
+    width: 260px;
+    line-height: 24px;
+}
+.email-offer-form {
+    position: absolute;
+    width: 200px;
+    left: 48%;
+    top: 35%;
+}
+.email-input{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+.subscribe-btn {
+    position: absolute;
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: #353945;
+    left: 150%;
+    bottom: 10%;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 90px;
+    margin-top: 24px;
+    width: 90%;
+}
+.reference-footer {
+    padding: 12px 0;
+    color: grey;
+    font-size: 13px;
+}
+.sun-night-change {
+    border-radius: 4px;
+    background-color: white;
+}
+.fa-sun{
+    padding-right: 22px;
+    border: none;
+}
+.service-footer {
+    line-height: 32px;
+    font-size: 13px;
+    width: calc(25% - 20px);
+    padding-left: 64px;
+}
+.support-footer {
+    line-height: 32px;
+    font-size: 13px;
+    width: calc(25% - 20px);
+    padding-left: 64px;
+}
+.business-footer {
+    line-height: 32px;
+    font-size: 13px;
+    width: calc(25% - 20px);
+    padding-left: 64px;
+}
+.footer-logo{
+    width: calc(25% - 20px);
+}
+.vertical-line{
+    width:1px;
+    height:40px;
+    background:#ccc;
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        flex-direction: column;
+        padding: 0 16px; 
+        gap: 16px;
+    }
+
+    .flex-column, .flex-item {
+        width: 100% !important;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-show {
+        padding: 16px 0;
+        font-size: 12px;
+    }
+
+    .cf-your-book, .form-item, .payment, .get-offers, .footer-container {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .cf-your-book {
+        font-size: 24px;
+        margin-top: 16px;
+    }
+
+    .summary-booked {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-top: 16px !important;
+        padding: 16px;
+    }
+    .summary-booked img {
+        width: 100% !important;
+        height: auto;
+    }
+    .check-in-out {
+        gap: 20px; 
+    }
+
+    .card-input-form {
+        width: 100% !important;
+        gap: 12px;
+    }
+    #card-number, .form-input {
+        width: 100% !important;
+    }
+
+    #expired-date, #cvv {
+        width: calc(50% - 6px) !important;
+    }
+
+    .submit-btn {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .get-offers img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover;
+    }
+    .get-pro-offer-title {
+        font-size: 18px;
+        top: 15%;
+        left: 16px;
+    }
+    .get-pro-offer-subtitle {
+        font-size: 11px;
+        width: 90%;
+        top: 35%;
+        left: 16px;
+    }
+    .email-offer-form {
+        left: 16px;
+        top: 65%;
+        width: calc(100% - 32px);
+        display: flex;
+        gap: 8px;
+    }
+    .email-input {
+        width: 70% !important;
+        height: 40px;
+    }
+    .subscribe-btn {
+        position: static !important; 
+        width: 30%;
+        height: 40px;
+        padding: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 24px;
+        margin: 24px 16px;
+    }
+    .footer-logo, .service-footer, .support-footer, .business-footer {
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
+}
