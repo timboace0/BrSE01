@@ -1,0 +1,90 @@
+body {
+  background-image: url("https://dep.com.vn/wp-content/uploads/2024/03/California-2.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 80vh;
+
+  color: white;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+#login-form-header {
+  background-color: #33b5e5;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#submit-btn {
+  background-color: #ef4d4d;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 36px;
+  margin-top: 24px;
+}
+
+#email {
+  margin-top: 24px;
+  width: 350px;
+  height: 36px;
+}
+
+#password {
+  width: 350px;
+  height: 36px;
+  margin-top: 24px;
+}
+
+#main-login-form {
+  margin: 32px 0;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+}
+
+#or-text {
+  color: #33b5e5;
+  font-size: 32px;
+  margin: 24px 0;
+}
+
+#login-link {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#login-link img {
+  width: 50px;
+  height: 50px;
+}
+
+.sign-up {
+  color: #33b5e5;
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  margin: 24px 24px;
+  padding-left: 100px;
+}
+
+.sign-up p {
+  padding: 6px;
+  margin: 0;
+}
+
+.sign-up p:nth-child(1) {
+  color: black;
+}
+.footer {
+  margin-top: 32px;
+}
