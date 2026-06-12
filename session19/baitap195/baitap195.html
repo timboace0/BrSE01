@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="./baitap195.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Add Bookmark Button -->
+      <button id="open-modal-btn" class="add-bookmark-btn">ADD BOOKMARK</button>
+
+      <!-- Bookmark List -->
+      <div id="bookmark-list" class="bookmark-list">
+        <!-- JS render tại đây -->
+
+        <!-- Demo Card -->
+        <!--
+      <div class="bookmark-card">
+        <button class="delete-btn">×</button>
+        <h3>GOOGLE - SEARCH ENGINE</h3>
+      </div>
+      --></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="bookmark-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Add Bookmark</h2>
+          <button id="close-modal-btn" class="close-btn">×</button>
+        </div>
+
+        <form id="bookmark-form">
+          <div class="form-group">
+            <label for="website-name">Website Name</label>
+            <input
+              type="text"
+              id="website-name"
+              placeholder="Enter website name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="website-url">Website URL</label>
+            <input
+              type="text"
+              id="website-url"
+              placeholder="https://example.com"
+            />
+          </div>
+
+          <button type="submit" id="save-btn" class="save-btn">Save</button>
+        </form>
+      </div>
+    </div>
+    <script src="./baitap195.js"></script>
+  </body>
+</html>
