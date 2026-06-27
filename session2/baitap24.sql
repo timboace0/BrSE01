@@ -1,0 +1,6 @@
+CREATE TABLE `users`(
+	id INT PRIMARY KEY NOT NULL,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    pwd VARCHAR(50) NOT NULL,
+    `status` VARCHAR(20) DEFAULT 'ACTIVE' CHECK (`status` IN ('ACTIVE', 'INACTIVE'))
+);
