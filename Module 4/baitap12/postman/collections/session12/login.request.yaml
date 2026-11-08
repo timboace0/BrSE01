@@ -1,0 +1,23 @@
+$kind: http-request
+name: login
+order: 1000
+method: POST
+url: 'http://localhost:8080/api/v1/auth/login'
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "email": "khangle@gmail.com",
+      "password": "123456"
+    }
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      const response = pm.response.json();
+      if (response && response.data && response.data.accessToken) {
+          pm.collectionVariables.set("accessToken", response.data.accessToken);
+          console.log("Access token saved to collection variable.");
+      }

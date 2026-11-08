@@ -1,0 +1,10 @@
+$kind: http-request
+name: getAllProduct
+order: 2000
+method: GET
+url: 'http://localhost:8080/api/v1/products'
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{accessToken}}'
